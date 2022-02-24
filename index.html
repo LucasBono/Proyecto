@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Lora&family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+
+    <title>Mi pagina web con flexbox</title>
+</head>
+<body>
+    <header>
+        <nav class="menu-navegacion contenedor">
+            <div class="logo">
+                <img src="imagenes/LogoMakr-3i1uNM.png" alt="social plus">
+            </div>
+            <div class="enlaces">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Cartilla</a></li>
+                <li><a href="#">Ingresar</a></li>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="contenedor-textos contenedor">
+                <h1>Dedicados al cuidado <strong>de tu salud</strong></h1>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates quis sed ullam eius veritatis facilis quasi atque asperiores, amet est, quaerat aliquid sit quidem delectus iure nulla, nam repellendus corporis.</p>
+               <a class="boton" href="#">Afiliate ahora!</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="divisor">
+            <img src="imagenes/LogoMakr-3i1uNM.png" alt="social">
+            <h2>La mayor cobertura para vos y tu familia.</h2>
+        </div>
+        <section class="articulos">
+            <div class="article contenedores">
+                <h3>Diagnósticos</h3>
+                <img src="imagenes/pexels-mart-production-7088834.jpg" alt="diagnostico">
+                <p>Entidades con equipos modernos de alta y baja complejidad.</p>
+            </div>
+            <div class="article contenedores">
+                <h3>Odontología</h3>
+                <img src="imagenes/odontologia.jpg" alt="odontologia" >
+                <p>Amplia cartilla odontológica.</p>
+            </div>
+            <div class="article contenedores">
+                <h3>Farmacias</h3>
+                <img src="imagenes/farmacia.jpg" alt="farmacia">
+                <p>Descuentos en medicamentos del 40%, 70% y 100. </p>
+            </div>
+            <div class="article contenedores">
+                <h3>Grupo Familiar</h3>
+                <img src="imagenes/grupofamiliar.jpg" alt="grupo familiar">
+                <p>Tu familia también puede disfrutar de los beneficios sin pagar adicionales.</p>
+            </div>
+            </section>
+            <section class="contacto ">
+                <div class="contacto-box">
+                    <h2>Cómo afiliarse</h2>
+                <p>Completá el formulario y un asesor se pondrá en contacto con vos a la brevedad posible.
+                    El trámite es gratuito y solo con tu recibo de haberes.</p>
+                </div>
+                <div class="formulario">
+                    <form action="">
+                        <input type="text" id="name" placeholder="Nombre" required>
+                        <input type="text" id="lastname"  placeholder="Apellido" required>
+                        <input type="text" id="tel"  placeholder="teléfono de Contacto" required>
+                        <input type="email" id="correo" placeholder="Correo electrónico" required>
+                        <textarea name="mensaje" id="" cols="50" rows="10">Mensaje</textarea>
+                        <input type="button" value="ENVIAR" id="boton">
+                    </form>
+                </div>
+            </section>
+    </main>
+    <footer class="nav">
+        <div class="tel">
+            <h4><i class="fa-solid fa-phone"></i>Lunes a viernes de <br> 8 a 17hs</h4>
+            <p class="parrafos">(011)11111111</p>
+            <p class="parrafos">(011)11111111</p>
+            <p class="parrafos">(011)11111111</p>
+            </div>
+            <div class="emer">
+            <h4><i class="fa-solid fa-house-medical"></i>Emergencias <br> las 24 hs</h4>
+            <p class="parrafos">0801-111-1111</p>
+            </div>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
